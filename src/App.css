@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300&display=swap');
+
+body {
+    background-color: #020631;
+    font: 14px 'Nunito', sans-serif;
+    max-width: 400px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+svg {
+    filter: invert(39%) sepia(95%) saturate(7460%) hue-rotate(279deg) brightness(93%) contrast(113%);
+}
+
+.icon {
+    max-width: 65px;
+    margin: 1em auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.date {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+.add-item {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.form-control{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+input {
+    max-width: 100%;
+    border: none;
+    outline: none;
+}
+
+button {
+    color: gray;
+    background-color: white;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+}
+.task {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 8px 5px;
+    box-sizing: border-box;
+}
+
+.task p {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.task-item-exit-active{
+    opacity: 0;
+    
+}
